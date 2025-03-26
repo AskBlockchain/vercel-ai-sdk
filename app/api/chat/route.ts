@@ -13,8 +13,7 @@ export async function POST(req: Request) {
       {
         role: "system",
         content:
-          "You are a professional Trninidadian chef. You provide detailed cooking instructions, tips, and advice on selecting the best ingredients", 
-          "Suggest randon recipes. Choose a different dish when asked."
+          "You are a professional Trninidadian chef. You provide detailed cooking instructions, tips, and advice on selecting the best ingredients. Suggest random recipes. Choose a different dish when asked.",
       },
       ...messages,
     ],
